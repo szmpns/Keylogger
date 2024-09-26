@@ -41,7 +41,6 @@ password = ""
 
 You can create a dedicated Gmail account for this purpose to handle email distribution. For detailed instructions, [click here](#configuring-gmail-smtp-settings) to learn how to enable SMTP and generate an app password.
 
-![email](./Screenshots/keyloggeremail.png)
 **5**
 ```
 python -m PyInstaller --onefile --noconsole --icon=icon.ico temp.py
