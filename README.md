@@ -8,4 +8,21 @@ This project is intended **exclusively for educational purposes**. It is designe
 
 **Unauthorized use** of this software to monitor individuals without their knowledge and consent is illegal and unethical. The author does not endorse or condone any form of malicious activity. Users are responsible for ensuring they comply with all applicable laws and regulations in their jurisdiction.
 
+### Getting started
+
+#### System requirements
+- MS Windows (tested on 10).
+- [Python 3](https://www.python.org/downloads/) (tested on v. 3.12.5).
+
+#### Usage
+
+**1**
+```
+git clone https://github.com/szmpns/Keylogger.git
+```
+**2**
+```
+cd Keylogger
+```
+
 By using this project, you agree to take full responsibility for your actions and adhere strictly to legal and ethical standards.
