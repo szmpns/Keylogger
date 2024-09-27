@@ -39,7 +39,7 @@ to_email = ""
 password = ""
 ```
 
-You can create a dedicated Gmail account for this purpose to handle email distribution. For detailed instructions, [click here](#configuring-gmail-smtp-settings) to learn how to enable SMTP and generate an app password.
+You should create a dedicated Gmail account for this purpose to handle email distribution. For detailed instructions, [click here](#configuring-gmail-smtp-settings) to learn how to enable SMTP and generate an app password.
 
 **5**
 ```
@@ -59,14 +59,15 @@ If you want to use a Gmail account to send emails, follow these steps:
    - Under "Signing in to Google," click on **2-Step Verification** and follow the instructions to enable it.
 
 2. **Create an App Password**:
-   - Once 2-Step Verification is enabled, return to the Security page.
-   - Click on **App passwords** under "Signing in to Google."
-   - Select the app as "Mail" and the device as "Other" (give it a name, e.g., `Keylogger`), then click **Generate**.
+   - Once 2-Step Verification is enabled, go to [this link](https://myaccount.google.com/apppasswords).
+   - Enter a name for your app password(e.g., `Keylogger`) and click **Create**.
    - A 16-character app password will be shown. Copy this password.
 
 3. **Update Your Code**:
    - Use this app password as the `password` in your `send_email()` function instead of your Gmail account password.
 
 This will allow your script to send emails securely while keeping your Gmail account protected.
+
+If you have any issues, check this guide: [Google Support](https://support.google.com/accounts/answer/185833?hl=en).
 
 By using this project, you agree to take full responsibility for your actions and adhere strictly to legal and ethical standards.
