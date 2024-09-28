@@ -50,6 +50,22 @@ python -m PyInstaller --onefile --noconsole --icon=icon.ico temp.py
 cd dist
 ```
 
+Keylogger is there, ready to use. 
+
+### Non-Malicious Uses of the Keylogger
+
+This `.exe` file can be used in a variety of legitimate scenarios, including:
+
+1. **Personal Productivity Monitoring**: Track your own typing habits to identify how much time you spend on specific tasks or applications, helping to improve productivity.
+  
+2. **Parental Control**: Monitor children's computer usage to ensure they are staying safe online, keeping track of their activity to protect them from inappropriate content or potential threats.
+
+3. **Employee Productivity and Security Monitoring**: In a work environment(with employee consent), the keylogger can be used to track employee productivity and ensure safe usage of company resources. It can help identify any potentially dangerous or inappropriate activities, allowing administrators to intervene if necessary. For example, access to the computer can be temporarily blocked if certain prohibited actions are detected, until the incident is reviewed by an administrator.
+
+4. **Data Recovery**: Recover unsaved or lost data in case of unexpected application crashes, power outages, or other interruptions, by keeping a record of recent keystrokes.
+
+5. **Remote Learning Monitoring**: In online learning environments, monitor students' keyboard inputs during assessments to ensure they are not cheating, such as during coding exams or typing tests. This helps maintain academic integrity and allows for personalized feedback, always with the students' consent.
+
 ### Configuring Gmail SMTP Settings
 
 If you want to use a Gmail account to send emails, follow these steps:
@@ -59,7 +75,7 @@ If you want to use a Gmail account to send emails, follow these steps:
    - Under "Signing in to Google," click on **2-Step Verification** and follow the instructions to enable it.
 
 2. **Create an App Password**:
-   - Once 2-Step Verification is enabled, go to [this link](https://myaccount.google.com/apppasswords).
+   - Once 2-Step Verification is enabled, go to [this link](https://myaccount.google.com/apppasswords) and log in.
    - Enter a name for your app password(e.g., `Keylogger`) and click **Create**.
    - A 16-character app password will be shown. Copy this password.
 
@@ -69,5 +85,19 @@ If you want to use a Gmail account to send emails, follow these steps:
 This will allow your script to send emails securely while keeping your Gmail account protected.
 
 If you have any issues, check this guide: [Google Support](https://support.google.com/accounts/answer/185833?hl=en).
+
+przyklady rozwoju dalszego wielkie jol pzdr
+
+### Ideas for potential development
+
+In the future I might come back to the project and develop it. Here are my ideas for features I could add:
+
+1. **Encrypted Logs**: Implement encryption to ensure that logs remain secure while stored locally. They can only be decrypted after being sent via email, providing an extra layer of protection for sensitive data.
+
+2. **Multi-Platform Support**: Expand compatibility to work seamlessly on other operating systems like macOS and Linux.
+
+3. **Clipboard Monitoring**: Extend functionality to capture clipboard data, allowing the tracking of copy-paste actions, which can provide additional context for the logged keystrokes.
+
+4. **Screenshot Capture**: Integrate periodic screenshot capturing to provide visual context of what the user is doing.
 
 By using this project, you agree to take full responsibility for your actions and adhere strictly to legal and ethical standards.
