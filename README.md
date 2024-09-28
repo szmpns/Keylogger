@@ -88,8 +88,6 @@ This will allow your script to send emails securely while keeping your Gmail acc
 
 If you have any issues, check this guide: [Google Support](https://support.google.com/accounts/answer/185833?hl=en).
 
-przyklady rozwoju dalszego wielkie jol pzdr
-
 ### Ideas for potential development
 
 In the future I might come back to the project and develop it. Here are my ideas for features I could add:
