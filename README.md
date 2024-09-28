@@ -52,6 +52,8 @@ cd dist
 
 Keylogger is there, ready to use. 
 
+> **Note **: The keylogger can also be used directly as a `.py` script, though this is not recommended. If you choose to run it this way, you can skip steps 5 and 6.
+
 ### Non-Malicious Uses of the Keylogger
 
 This `.exe` file can be used in a variety of legitimate scenarios, including:
